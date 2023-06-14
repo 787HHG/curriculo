@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 .banner{
     background: url('../img/espaço.jpg');
     background-position: top center;
@@ -7,24 +8,49 @@
 }
 .perfil{
     border-radius: 50%;
-    border: #fff solid;
+    border: #fff solid 0.5rem;
+    height: 60vh;
 }
+
+.myname {
+    font-family: 'dois', sans-serif;
+    font-size: 4rem;
+    color: #fff;
+    font-weight: 600;
+}
+
 
 @media (max-width: 576px) { 
     .banner {
         background-position: center;
-        height: 100vh;
+        height: 80vh;
+    }
+    .perfil{
+       height: 100%;
+
+    }
+    .myname {
+        font-family: 'dois', sans-serif;
+        font-size: 2.5rem;
+        font-weight: 300;
+        text-align: center;
     }
 }
 
+@media (min-width: 577px) and (max-width: 1200px) { 
+    .banner {
+        background-position: right;
+        height: 80vh;
+    }
+    .perfil{
+       height: 100%;
 
-@media (max-width: 768px) { }
+    }
+    
+}
 
+.habilidades{
+    font-family: 'Lobster', cursive;
+    color: brown;
+}
 
-@media (max-width: 992px) { }
-
-
-@media (max-width: 1200px) { }
-
-
-@media (max-width: 1400px) { }
