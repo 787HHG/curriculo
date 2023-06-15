@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
 .banner{
     background: url('../img/espaço.jpg');
     background-position: top center;
@@ -50,7 +50,17 @@
 }
 
 .habilidades{
-    font-family: 'Lobster', cursive;
-    color: brown;
+    font-family: 'Kalam', cursive;
+    color: rgb(53, 145, 155);
+    
+    text-decoration: underline;
 }
+
+.historico{
+    font-family: 'Kalam', cursive;
+    color: rgb(53, 145, 155);
+   
+    text-decoration: underline;
+}
+
 
