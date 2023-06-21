@@ -51,21 +51,29 @@
 
 .habilidades{
     font-family: 'Kalam', cursive;
-    color: rgb(53, 145, 155);
+    color: #F4A460;
     
     text-decoration: underline;
 }
 
 .historico{
     font-family: 'Kalam', cursive;
-    color: rgb(53, 145, 155);
-   
+    color: #F4A460;
+   margin-left: 35%;
     text-decoration: underline;
 }
 
 
 .letra{
     text-decoration: underline;
+}
+
+
+
+.histo{
+    margin-left: 35%;
+   
+
 }
 
 
